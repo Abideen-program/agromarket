@@ -1,9 +1,10 @@
+import Header from "@/components/Header";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      <p className="text-red-600">Home page</p>
+    <div className="flex flex-col border border-gray-950 min-h-[100vh]">
+      <Header />
     </div>
   );
 }
