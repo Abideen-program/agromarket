@@ -28,10 +28,13 @@ const config: Config = {
       xl: "1024px",
       // => @media (min-width: 1024px) { ... }
 
-      "2xl": "1440px",
+      "2xl": "1025px",
       // => @media (min-width: 1536px) { ... }
 
-      "3xl": "2560px",
+      "3xl": "1440px",
+      // => @media (min-width: 1536px) { ... }
+
+      "4xl": "2560px",
       // => @media (min-width: 2560px) { ... }
     },
   },
