@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <div
-      className={`overflow-hidden fixed left-0 right-0 ${
+      className={`lg:hidden overflow-hidden fixed left-0 right-0 border border-red-400 ${
         showBackground ? "bg-zinc-200 bg-opacity-90 top-0 transition-all duration-150 ease-in" : "top-7"
       }`}
     >

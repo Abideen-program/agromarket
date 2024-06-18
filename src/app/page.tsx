@@ -8,41 +8,42 @@ const Sans = DM_Sans({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="flex flex-col border border-gray-950 min-h-[100vh]">
-      {/* <Header /> */}
-
-      <div className="border border-red-600 mx-7 pt-10 flex flex-col gap-3 mt-[100px]">
-        <div className="sm:w-[381px] flex flex-col gap-3">
+    <div className="border border-gray-950 min-h-[100vh] flex flex-col">
+      <div className="border border-red-600 mx-7 md:mx-auto pt-10 flex md:flex-row flex-col gap-3 mt-[100px] md:w-[1000px]">
+        <div className="flex flex-col gap-3 md:gap-4 md:w-[584px] sm:w-[381px] border border-blue-400">
           <h2
-            className={`font-bold text-[#141F39] text-[25px] xs:text-[30px] sm:text-[35px] leading-9 xs:leading-10 sm:leading-[45px] text-left tracking-tight ${Sans.className}`}
+            className={`font-bold text-[#141F39] text-[25px] xs:text-[30px] sm:text-[35px] md:text-[55px] leading-9 xs:leading-10 sm:leading-[45px] md:leading-[70px] text-left tracking-tight overflow-hidden ${Sans.className}`}
           >
             Agriculture Made Smarter With Digital Infrastructure.
           </h2>
 
           <p
-            className={`text-[#4F4F4F] text-[13px] sm:text-[14.5px] sm:w-[98%] text-left leading-6 sm:leading-8 ${inter.className}`}
+            className={`text-[#4F4F4F] text-[13px] sm:text-[14.5px] md:text-[18px] sm:w-[98%] text-left leading-6 sm:leading-8 ${inter.className}`}
           >
             We aim to revolutionize how agricultural products are grown, traded,
-            financed, and delivered in Africa through innovative technology.
+            financed, and delivered in A frica through innovative technology.
           </p>
-        </div>
 
-        <div className="flex items-center justify-between">
-          <button className="bg-[#006D33] rounded-lg w-[100px] h-[40px] xs:w-[150px] xs:h-[45px] sm:w-[170px] sm:h-[60px] text-white font-semibold flex items-center justify-center text-[13px] sm:text-sm">
-            Get Started
-          </button>
-          <div className="flex items-center justify-center gap-2 cursor-pointer">
-            <p className={`font-semibold text-[13px] sm:text-sm ${inter.className}`}>
-              Explore Products
-            </p>
-            <Image src={iconImages.ArrowRight} alt="arrow" />
+          <div className="flex items-center md:justify-start md:gap-8 gap-0 justify-between">
+            <button className="bg-[#006D33] rounded-lg w-[100px] h-[40px] xs:w-[150px] xs:h-[45px] sm:w-[170px] sm:h-[60px] text-white font-semibold flex items-center justify-center text-[13px] md:text-base sm:text-sm">
+              Get Started
+            </button>
+            <div className="flex items-center justify-center gap-2 cursor-pointer">
+              <p
+                className={`font-semibold text-[13px] md:text-base sm:text-sm ${inter.className}`}
+              >
+                Explore Products
+              </p>
+              <Image src={iconImages.ArrowRight} alt="arrow" />
+            </div>
           </div>
         </div>
 
-        <div className="mt-6 sm:mt-10">
-          <Image src={iconImages.Hero} alt="hero" />
+        <div className="md:-mt-20 mt-6 sm:mt-5">
+          <Image src={iconImages.Hero} alt="hero" className="w-[580px]"/>
         </div>
       </div>
+      dda
     </div>
   );
 }
