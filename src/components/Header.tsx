@@ -62,7 +62,7 @@ const Header = () => {
       <div
         className={`hidden lg:flex overflow-hidden fixed left-0 right-0 border border-red-400 ${
           showBackground
-            ? "bg-zinc-200 bg-opacity-90 top-6 transition-all duration-150 ease-in"
+            ? "bg-zinc-200 bg-opacity-90 top-0 transition-all duration-150 ease-in"
             : "top-3"
         } ${sans.className}`}
       >
