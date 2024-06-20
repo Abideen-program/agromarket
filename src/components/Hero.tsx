@@ -7,9 +7,9 @@ const Sans = DM_Sans({ subsets: ["latin"] });
 
 const Hero = () => {
   return (
-    <div className="border border-gray-950 min-h-[100vh] flex flex-col bg-[url('/back.png')] bg-fixed bg-no-repeat bg-center bg-cover">
-      <div className="border border-red-600 mx-7 lg:mx-auto pt-10 md:pt-0 flex md:items-center md:flex-row flex-col gap-3 mt-[100px] lg:w-[800px] 2xl:w-[1000px] 3xl:w-[1119px] md:h-[500px]">
-        <div className="flex flex-col gap-3 md:gap-2 md:w-[584px] sm:w-[381px] border border-blue-400">
+    <div className="min-h-[100vh] flex flex-col bg-[url('/back.png')] bg-fixed bg-no-repeat bg-center bg-cover z-0 mt-[0px] md:mt-[0px] lg:mt-[100px]">
+      <div className=" mx-7 lg:mx-auto pt-5 md:pt-0 flex md:items-center md:flex-row flex-col gap-3 lg:w-[800px] 2xl:w-[1000px] 3xl:w-[1119px] md:h-[500px]">
+        <div className="flex flex-col gap-3 md:gap-2 md:w-[584px] sm:w-[381px]">
           <h2
             className={`font-bold text-[#141F39] text-[25px] xs:text-[30px] sm:text-[35px] md:text-[30px] lg:text-[40px] 2xl:text-[50px] leading-9 xs:leading-10 sm:leading-[45px] lg:leading-[50px] 2xl:leading-[65px] text-left tracking-tight overflow-hidden ${Sans.className}`}
           >
