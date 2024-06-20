@@ -7,5 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 const Sans = DM_Sans({ subsets: ["latin"] });
 
 export default function Home() {
-  return <Hero />;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 }
