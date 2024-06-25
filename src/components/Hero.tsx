@@ -7,7 +7,7 @@ const Sans = DM_Sans({ subsets: ["latin"] });
 
 const Hero = () => {
   return (
-    <div className="min-h-[100vh] flex flex-col bg-[url('/back.png')] bg-fixed bg-no-repeat bg-center bg-cover z-0 mt-[0px] md:mt-[0px] lg:mt-[100px]">
+    <div className="h-full  flex flex-col bg-[url('/back.png')] bg-fixed bg-no-repeat bg-center bg-cover z-0 mt-[0px] md:mt-[0px] lg:mt-[100px]">
       <div className=" mx-7 lg:mx-auto pt-5 md:pt-0 flex md:items-center md:flex-row flex-col gap-3 lg:w-[800px] 2xl:w-[1000px] 3xl:w-[1119px] md:h-[500px]">
         <div className="flex flex-col gap-3 md:gap-2 md:w-[584px] sm:w-[381px]">
           <h2

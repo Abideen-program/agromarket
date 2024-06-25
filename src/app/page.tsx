@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Partners from "@/components/Partners";
 import { iconImages } from "@/utils/images";
 import { Inter, DM_Sans } from "next/font/google";
 import Image from "next/image";
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <Partners />
     </>
   );
 }

@@ -37,7 +37,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="px-7 lg:hidden z-[1000]">
+      <div className={`px-7 lg:hidden z-[1000]`}>
         <nav
           className={`flex lg:hidden items-center justify-between py-2 w-full ${
             showBackground ? "bg-zinc-200 bg-opacity-90" : ""
@@ -62,8 +62,8 @@ const Header = () => {
           </div>
 
           <ul
-            className={`w-[60%] h-[100vh] absolute top-0 right-0 border bg-zinc-200 bg-opacity-100 flex flex-col gap-5 py-12 px-[32px] z-[1000] transition-all duration-500 ease-in ${
-              !menuOpen ? "translate-x-[100%]" : "translate-x-[0]"
+            className={`w-[60%] h-[100vh] absolute top-0 border bg-zinc-200 bg-opacity-100 flex flex-col gap-5 py-12 px-[32px] z-[1000] transition-all duration-500 ease-in ${
+              !menuOpen ? "right-[100%]" : "right-[0%]"
             }`}
           >
             <div
