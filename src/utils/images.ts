@@ -11,8 +11,10 @@ import Icon5 from "../assets/icons/icon5.svg";
 import Icon6 from "../assets/icons/icon6.svg";
 import Icon7 from "../assets/icons/icon7.png";
 import Icon8 from "../assets/icons/icon8.svg";
+import Solution1 from "../assets/icons/solution1.svg";
 
 export const iconImages = {
+  Solution1,
   Icon1,
   Icon2,
   Icon3,

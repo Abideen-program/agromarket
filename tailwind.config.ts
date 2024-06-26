@@ -38,6 +38,10 @@ const config: Config = {
       // => @media (min-width: 2560px) { ... }
     },
   },
-  plugins: [],
+  plugins: [
+    // ...
+    // require("tailwind-scrollbar"),
+    require("@xpd/tailwind-3dtransforms"),
+  ],
 };
 export default config;
