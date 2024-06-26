@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import Partners from "@/components/Partners";
-import Solutions from "@/components/Solutions";
+import Solutions from "@/components/Solutions/Solutions";
 import { iconImages } from "@/utils/images";
 import { Inter, DM_Sans } from "next/font/google";
 import Image from "next/image";
