@@ -46,7 +46,7 @@ const Partners = () => {
   };
 
   return (
-    <div className="h-[130px] overflow-y-hidden my-5 px-7 2xl:px-28 border border-red-600">
+    <div className="h-[130px] overflow-y-hidden my-5 px-7 2xl:px-28">
       <Slider {...settings}>
         <div className="w-full h-[137px] flex items-center justify-center">
           <div className="flex items-center justify-center m-auto w-full h-full">
@@ -97,68 +97,6 @@ const Partners = () => {
         </div>
       </Slider>
     </div>
-
-    // <div className="border border-red-400 my-10 px-7 lg:px-20">
-    //   <Swiper
-    //     autoplay
-    //     slidesPerView={slides}
-    //     spaceBetween={10}
-    //     centeredSlides={false}
-    //     pagination={{
-    //       clickable: true,
-    //     }}
-    //     modules={[Pagination]}
-    //     className={`h-[137px] w-full flex items-center`}
-    //   >
-    //     <SwiperSlide className="border border-black flex items-center justify-center">
-    //       <div className="border border-red-400 w-full h-full flex items-center justify-center">
-    //         <Image src={iconImages.Icon1} alt="partner" className="" />
-    //       </div>
-    //     </SwiperSlide>
-
-    //     <SwiperSlide className="border border-black flex items-center justify-center w-[50px]">
-    //       <div className="border border-red-400 w-full h-full flex items-center justify-center">
-    //         <Image src={iconImages.Icon2} alt="partner" className="" />
-    //       </div>
-    //     </SwiperSlide>
-
-    //     <SwiperSlide className="border border-black flex items-center justify-center w-[50px]">
-    //       <div className="border border-red-400 w-full h-full flex items-center justify-center">
-    //         <Image src={iconImages.Icon3} alt="partner" className="" />
-    //       </div>
-    //     </SwiperSlide>
-
-    //     <SwiperSlide className="border border-black flex items-center justify-center w-[50px]">
-    //       <div className="border border-red-400 w-full h-full flex items-center justify-center">
-    //         <Image src={iconImages.Icon4} alt="partner" className="" />
-    //       </div>
-    //     </SwiperSlide>
-
-    //     <SwiperSlide className="border border-black flex items-center justify-center w-[50px]">
-    //       <div className="border border-red-400 w-full h-full flex items-center justify-center">
-    //         <Image src={iconImages.Icon5} alt="partner" className="" />
-    //       </div>
-    //     </SwiperSlide>
-
-    //     <SwiperSlide className="border border-black flex items-center justify-center w-[50px]">
-    //       <div className="border border-red-400 w-full h-full flex items-center justify-center">
-    //         <Image src={iconImages.Icon6} alt="partner" className="" />
-    //       </div>
-    //     </SwiperSlide>
-
-    //     <SwiperSlide className="border border-black flex items-center justify-center w-[50px]">
-    //       <div className="border border-red-400 w-full h-full flex items-center justify-center">
-    //         <Image src={iconImages.Icon7} alt="partner" className="" />
-    //       </div>
-    //     </SwiperSlide>
-
-    //     <SwiperSlide className="border border-black flex items-center justify-center w-[50px]">
-    //       <div className="border border-red-400 w-full h-full flex items-center justify-center">
-    //         <Image src={iconImages.Icon8} alt="partner" className="" />
-    //       </div>
-    //     </SwiperSlide>
-    //   </Swiper>
-    // </div>
   );
 };
 
