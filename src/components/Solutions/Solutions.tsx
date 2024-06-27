@@ -8,7 +8,7 @@ const Sans = DM_Sans({ subsets: ["latin"] });
 
 const Solutions = () => {
   return (
-    <div className="my-5 bg-[#faf9f9] flex flex-col">
+    <div className="mt-20 mb-10 bg-[#faf9f9] flex flex-col py-3">
       <div className="mx-7 flex flex-col gap-4">
         <div className="flex flex-col items-center justify-center md:w-[640px] h-[108px] gap-4 mx-auto">
           <h2
@@ -24,7 +24,7 @@ const Solutions = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-8 md:grid md:grid-cols-2 2xl:grid-cols-3 mx-auto xl:w-[800px] 2xl:w-[1050px]">
+        <div className="flex flex-col items-center justify-center gap-8 md:grid md:grid-cols-2 2xl:grid-cols-3 mx-auto xl:w-[800px] 2xl:w-[1000px]">
           <SolutionItem
             icon={iconImages.Solution1}
             title={"Digital Infrastructure"}

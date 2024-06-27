@@ -1,3 +1,4 @@
+import Explore from "@/components/Explore";
 import Hero from "@/components/Hero";
 import Partners from "@/components/Partners";
 import Solutions from "@/components/Solutions/Solutions";
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Partners />
       <Solutions />
+      <Explore />
     </>
   );
 }

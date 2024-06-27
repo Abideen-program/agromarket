@@ -17,8 +17,12 @@ import Solution3 from "../assets/icons/solution3.svg";
 import Solution4 from "../assets/icons/solution4.svg";
 import Solution5 from "../assets/icons/solution5.svg";
 import Solution6 from "../assets/icons/solution6.svg";
+import Explore from "../assets/icons/explore.svg";
+import White from "../assets/icons/white.svg";
 
 export const iconImages = {
+  Explore,
+  White,
   Solution1,
   Solution2,
   Solution3,
