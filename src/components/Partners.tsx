@@ -2,14 +2,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-
-import "swiper/css";
-import "swiper/css/pagination";
-
-import { Pagination } from "swiper/modules";
 import { iconImages } from "@/utils/images";
-import { delay } from "framer-motion";
 
 import Slider from "react-slick";
 

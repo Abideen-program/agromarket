@@ -19,8 +19,14 @@ import Solution5 from "../assets/icons/solution5.svg";
 import Solution6 from "../assets/icons/solution6.svg";
 import Explore from "../assets/icons/explore.svg";
 import White from "../assets/icons/white.svg";
+import Quote from "../assets/icons/quote.svg";
+import Star from "../assets/icons/star.svg";
+import Timo from "../assets/icons/timo.png";
 
 export const iconImages = {
+  Quote,
+  Star,
+  Timo,
   Explore,
   White,
   Solution1,

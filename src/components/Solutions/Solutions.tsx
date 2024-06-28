@@ -8,7 +8,7 @@ const Sans = DM_Sans({ subsets: ["latin"] });
 
 const Solutions = () => {
   return (
-    <div className="mt-20 mb-10 bg-[#faf9f9] flex flex-col py-3">
+    <div className="mb-5 bg-[#faf9f9] flex flex-col py-3">
       <div className="mx-7 flex flex-col gap-4">
         <div className="flex flex-col items-center justify-center md:w-[640px] h-[108px] gap-4 mx-auto">
           <h2
