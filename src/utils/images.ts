@@ -19,14 +19,21 @@ import Solution5 from "../assets/icons/solution5.svg";
 import Solution6 from "../assets/icons/solution6.svg";
 import Explore from "../assets/icons/explore.svg";
 import White from "../assets/icons/white.svg";
+// import Green from "../assets/icons/green.svg";
 import Quote from "../assets/icons/quote.svg";
 import Star from "../assets/icons/star.svg";
 import Timo from "../assets/icons/timo.png";
+import Mayo from "../assets/icons/Mayo.png";
+import Prev from "../assets/icons/prev.svg";
+import Next from "../assets/icons/next.svg";
 
 export const iconImages = {
+  Prev,
+  Next,
   Quote,
   Star,
   Timo,
+  Mayo,
   Explore,
   White,
   Solution1,

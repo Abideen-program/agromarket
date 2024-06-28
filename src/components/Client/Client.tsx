@@ -11,13 +11,14 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import ClientItem from "./ClientItem";
+import SwiperButton from "./SwiperButton";
 
 const inter = Inter({ subsets: ["latin"] });
 const Sans = DM_Sans({ subsets: ["latin"] });
 
 const Client = () => {
   return (
-    <div className="p-7 flex flex-col border border-gray-950 mt-10">
+    <div className="p-7 flex flex-col gap-7 mt-10">
       <div className="flex flex-col md:items-center gap-7 xl:w-[800px] 2xl:w-[1000px] mx-auto">
         <div className="flex flex-col gap-4 md:w-[600px]">
           <h2
@@ -36,7 +37,7 @@ const Client = () => {
       </div>
 
       <Swiper
-        className="swiper-container w-full md:w-4/5 md:mx-auto"
+        className="swiper-container w-full md:w-[85%] md:mx-auto"
         spaceBetween={10}
         centeredSlides={true}
         // navigation={true}
@@ -51,17 +52,29 @@ const Client = () => {
         // }}
       >
         <SwiperSlide>
-          <ClientItem />
+          <ClientItem
+            description={
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit semper consequat in dolor mattis pellentesque suspendisse vulputate nec. Scelerisque elementum, consequat pharetra lectus eget vivamus ut. Magna aliquam tellus at volutpat cras aliquet facilisi quis adipiscing. Proin egestas et pellentesque augue pretium, amet. Natoque blandit augue integer maecenas mattis amet, nec."
+            }
+            name={"Timothy Simmons"}
+            title={"TenedInc, CEO"}
+            icon={iconImages.Timo}
+          />
         </SwiperSlide>
 
         <SwiperSlide>
-          <ClientItem />
+          <ClientItem
+            description={
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit semper consequat in dolor mattis pellentesque suspendisse vulputate nec. Scelerisque elementum, consequat pharetra lectus eget vivamus ut. Magna aliquam tellus at volutpat cras aliquet facilisi quis adipiscing. Proin egestas et pellentesque augue pretium, amet. Natoque blandit augue integer maecenas mattis amet, nec."
+            }
+            name={"Mayowa S. Wilson"}
+            title={"Zibarr.ltd, CEO"}
+            icon={iconImages.Mayo}
+          />
         </SwiperSlide>
-      </Swiper>
 
-      <div>
-        
-      </div>
+        <SwiperButton />
+      </Swiper>
     </div>
   );
 };
