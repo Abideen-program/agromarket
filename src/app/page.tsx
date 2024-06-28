@@ -14,12 +14,13 @@ const Sans = DM_Sans({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      {/* <Hero />
+      <Hero />
       <Partners />
       <Solutions />
       <Explore />
-      <Client /> */}
-      <SwiperJs />
+      <Client />
+
+      {/* <SwiperJs /> */}
     </>
   );
 }
