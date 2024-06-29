@@ -1,3 +1,4 @@
+import Benefits from "@/components/Benefits/Benefits";
 import Client from "@/components/Client/Client";
 import Explore from "@/components/Explore";
 import Hero from "@/components/Hero";
@@ -19,8 +20,7 @@ export default function Home() {
       <Solutions />
       <Explore />
       <Client />
-
-      {/* <SwiperJs /> */}
+      <Benefits />
     </>
   );
 }

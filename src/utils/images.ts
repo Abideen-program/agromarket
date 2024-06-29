@@ -19,15 +19,30 @@ import Solution5 from "../assets/icons/solution5.svg";
 import Solution6 from "../assets/icons/solution6.svg";
 import Explore from "../assets/icons/explore.svg";
 import White from "../assets/icons/white.svg";
-// import Green from "../assets/icons/green.svg";
 import Quote from "../assets/icons/quote.svg";
 import Star from "../assets/icons/star.svg";
 import Timo from "../assets/icons/timo.png";
 import Mayo from "../assets/icons/Mayo.png";
 import Prev from "../assets/icons/prev.svg";
 import Next from "../assets/icons/next.svg";
+import Farming from "../assets/icons/farming.svg";
+import Quality from "../assets/icons/quality.svg";
+import Logistics from "../assets/icons/logistics.svg";
+import Input from "../assets/icons/input.svg";
+import Corporate from "../assets/icons/corporate.svg";
+import Financial from "../assets/icons/financial.svg";
+import Extension from "../assets/icons/extension.svg";
+import Green from "../assets/icons/green-right.svg";
 
 export const iconImages = {
+  Green,
+  Farming,
+  Quality,
+  Logistics,
+  Input,
+  Corporate,
+  Financial,
+  Extension,
   Prev,
   Next,
   Quote,

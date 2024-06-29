@@ -10,3 +10,8 @@ interface ClientItems {
   title: string;
   icon: any;
 }
+
+interface Benefit {
+  icon: any;
+  title: string;
+}

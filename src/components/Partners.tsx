@@ -39,7 +39,7 @@ const Partners = () => {
   };
 
   return (
-    <div className="h-[130px] overflow-y-hidden my-5 px-7 2xl:px-28">
+    <div className="h-[130px] overflow-y-hidden my-10 px-7 2xl:px-28">
       <Slider {...settings}>
         <div className="w-full h-[137px] flex items-center justify-center">
           <div className="flex items-center justify-center m-auto w-full h-full">
