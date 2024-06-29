@@ -28,7 +28,7 @@ const Benefits = () => {
             enhance supply chain efficiency.
           </p>
 
-          <div className="flex flex-col md:flex-row gap-4">
+          <div className="flex flex-col md:flex-row gap-4 md:gap-9">
             <div className="flex flex-col gap-4">
               <Benefit icon={iconImages.Farming} title="Farming Associations" />
               <Benefit icon={iconImages.Quality} title="Quality Assurance" />
