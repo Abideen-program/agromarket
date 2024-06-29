@@ -15,3 +15,11 @@ interface Benefit {
   icon: any;
   title: string;
 }
+
+interface UpdateItem {
+  image: any;
+  name: string;
+  date: string;
+  title: string;
+  snippet: string;
+}

@@ -50,7 +50,11 @@ const Benefits = () => {
               />
 
               <div className="flex items-center gap-2 mt-4 cursor-pointer">
-                <p className="text-[#006D33] font-semibold text-sm">View Details</p>
+                <p
+                  className={`${poppins.className} text-[#006D33] font-semibold text-sm`}
+                >
+                  View Details
+                </p>
                 <Image src={iconImages.Green} alt="arrow" />
               </div>
             </div>

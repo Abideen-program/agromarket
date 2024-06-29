@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Partners from "@/components/Partners";
 import Solutions from "@/components/Solutions/Solutions";
 import SwiperJs from "@/components/Swiper";
+import Updates from "@/components/Updates/Updates";
 import { iconImages } from "@/utils/images";
 import { Inter, DM_Sans } from "next/font/google";
 import Image from "next/image";
@@ -21,6 +22,7 @@ export default function Home() {
       <Explore />
       <Client />
       <Benefits />
+      <Updates />
     </>
   );
 }

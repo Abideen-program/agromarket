@@ -33,8 +33,16 @@ import Corporate from "../assets/icons/corporate.svg";
 import Financial from "../assets/icons/financial.svg";
 import Extension from "../assets/icons/extension.svg";
 import Green from "../assets/icons/green-right.svg";
+import Dot from "../assets/icons/dot.svg";
+import Update1 from "../assets/icons/update1.png";
+import Update2 from "../assets/icons/update2.png";
+import Update3 from "../assets/icons/update3.png";
 
 export const iconImages = {
+  Dot,
+  Update1,
+  Update2,
+  Update3,
   Green,
   Farming,
   Quality,
