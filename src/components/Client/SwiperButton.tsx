@@ -6,7 +6,7 @@ const SwiperButton = () => {
   const swiper = useSwiper();
 
   return (
-    <div className="flex md:hidden items-center gap-4 mt-4">
+    <div className="flex items-center gap-4 mt-4">
       <div
         className="w-12 h-12 rounded-full flex flex-col items-center justify-center bg-[#EBFBF1] cursor-pointer"
         onClick={() => swiper.slidePrev()}

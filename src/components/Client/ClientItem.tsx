@@ -9,7 +9,7 @@ const Sans = DM_Sans({ subsets: ["latin"] });
 const ClientItem = ({ description, name, title, icon }: ClientItems) => {
   const stars: any = [1, 2, 3, 4, 5].fill(iconImages.Star);
   return (
-    <div className="perspective-1200  md:h-fit flex flex-col justify-center">
+    <div className="perspective-1200 md:h-fit flex flex-col justify-center">
       <div className="flex flex-col gap-4 border rounded-3xl p-[25px] bg-[#F8FAF5] transition-all duration-300 ease-in hover:transform hover:-rotate-y-12 hover:shadow-md shadow-[0_10px_25px_-24px_rgb(0,0,0,0.3)]">
         <Image src={iconImages.Quote} alt="qoute" className="opacity-20" />
         <p
