@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 const Download = () => {
   return (
     <div className="px-7 xl:px-0 xl:w-[800px] 2xl:w-[1000px] xl:mx-auto mt-10 md:my-20">
-      <div className="bg-[#F0F5EC] rounded-3xl px-5 pt-5 md:pb-5 flex flex-col md:flex-row md:items-center md: gap-10 xs:gap-20 relative">
+      <div className="bg-[#F0F5EC] rounded-3xl px-5 pt-5 md:pb-5 flex flex-col md:flex-row md:items-center gap-10 relative">
         <div className="flex flex-col gap-6 md:w-[390px] xl:w-[450px] 2xl:w-[500px]">
           <div className="flex flex-col gap-4">
             <h2

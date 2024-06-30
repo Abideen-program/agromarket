@@ -44,8 +44,22 @@ import GooglePlay from "../assets/icons/Google Play.svg";
 import Download from "../assets/icons/Download on the.svg";
 import App from "../assets/icons/App Store.svg";
 import Phone from "../assets/icons/phone.png";
+import FooterLogo from "../assets/icons/footerLogo.svg";
+import Telephone from "../assets/icons/telephone.svg";
+import Mail from "../assets/icons/mail.svg";
+import Location from "../assets/icons/location.svg";
+import Instagram from "../assets/icons/insta.svg";
+import Twitter from "../assets/icons/twitter.svg";
+import LinkedIn from "../assets/icons/linkedin.svg";
 
 export const iconImages = {
+  Instagram,
+  Twitter,
+  LinkedIn,
+  Telephone,
+  Mail,
+  Location,
+  FooterLogo,
   Phone,
   Get,
   GooglePlay,
