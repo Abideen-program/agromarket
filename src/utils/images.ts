@@ -37,8 +37,22 @@ import Dot from "../assets/icons/dot.svg";
 import Update1 from "../assets/icons/update1.png";
 import Update2 from "../assets/icons/update2.png";
 import Update3 from "../assets/icons/update3.png";
+import Playstore from "../assets/icons/playstore.svg";
+import Apple from "../assets/icons/apple.svg";
+import Get from "../assets/icons/Get it on.svg";
+import GooglePlay from "../assets/icons/Google Play.svg";
+import Download from "../assets/icons/Download on the.svg";
+import App from "../assets/icons/App Store.svg";
+import Phone from "../assets/icons/phone.png";
 
 export const iconImages = {
+  Phone,
+  Get,
+  GooglePlay,
+  Download,
+  App,
+  Playstore,
+  Apple,
   Dot,
   Update1,
   Update2,

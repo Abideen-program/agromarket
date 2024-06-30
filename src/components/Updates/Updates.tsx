@@ -53,7 +53,7 @@ const Updates = () => {
       </div>
 
       <div className="flex items-center justify-center">
-        <button className="bg-[#006D33] text-white w-[200px] h-[60px] rounded-[10px] flex items-center justify-center gap-3 mx-auto">
+        <button className="bg-[#006D33] text-white w-[150px] h-[60px] rounded-[10px] flex items-center justify-center gap-3 mx-auto">
           <p>View More</p>
           <Image alt="arrow" src={iconImages.White} className=""/>
         </button>

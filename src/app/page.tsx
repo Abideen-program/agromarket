@@ -1,5 +1,6 @@
 import Benefits from "@/components/Benefits/Benefits";
 import Client from "@/components/Client/Client";
+import Download from "@/components/Download/Download";
 import Explore from "@/components/Explore";
 import Hero from "@/components/Hero";
 import Partners from "@/components/Partners";
@@ -23,6 +24,7 @@ export default function Home() {
       <Client />
       <Benefits />
       <Updates />
+      <Download />
     </>
   );
 }
