@@ -7,11 +7,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 const Download = () => {
   return (
-    <div className="px-7">
-      <div className="bg-[#F0F5EC] rounded-3xl px-5 pt-5 flex flex-col gap-10 xs:gap-20">
-        <div className="flex flex-col gap-6">
+    <div className="px-7 xl:px-0 xl:w-[800px] 2xl:w-[1000px] xl:mx-auto mt-10 md:my-20">
+      <div className="bg-[#F0F5EC] rounded-3xl px-5 pt-5 md:pb-5 flex flex-col md:flex-row md:items-center md: gap-10 xs:gap-20 relative">
+        <div className="flex flex-col gap-6 md:w-[390px] xl:w-[450px] 2xl:w-[500px]">
           <div className="flex flex-col gap-4">
-            <h2 className={`${sans.className} font-bold text-[20px]`}>
+            <h2
+              className={`${sans.className} font-bold text-[20px] xl:w-[80%]`}
+            >
               Download & Install Ajeoba Now and Enjoy Quality Products & Inputs
             </h2>
             <p
@@ -56,8 +58,8 @@ const Download = () => {
           </div>
         </div>
 
-        <div className="">
-          <Image alt="phones" src={iconImages.Phone}/>
+        <div className="md:absolute md:bottom-0 right-5 xl:right-10 2xl:right-40">
+          <Image alt="phones" src={iconImages.Phone} className="w-[300px]" />
         </div>
       </div>
     </div>
