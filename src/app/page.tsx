@@ -5,6 +5,7 @@ import Explore from "@/components/Explore";
 import Hero from "@/components/Hero";
 import Partners from "@/components/Partners";
 import Solutions from "@/components/Solutions/Solutions";
+import Swiper from "@/components/Swiper";
 import SwiperJs from "@/components/Swiper";
 import Updates from "@/components/Updates/Updates";
 import { iconImages } from "@/utils/images";
@@ -25,6 +26,7 @@ export default function Home() {
       <Benefits />
       <Updates />
       <Download />
+      {/* <Swiper/> */}
     </>
   );
 }

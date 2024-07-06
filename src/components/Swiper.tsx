@@ -1,45 +1,33 @@
 "use client";
-import React, { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { iconImages } from "@/utils/images";
+import { motion, AnimatePresence } from "framer-motion";
+import { useState } from "react";
 
-function SwiperJs() {
+const Swiper = () => {
+  const [isVisibile, setIsVisible] = useState(true);
+
   return (
-    <Swiper
-      className="swiper-container w-4/5 mx-auto"
-      spaceBetween={10}
-      centeredSlides={true}
-      navigation={true}
-      modules={[Autoplay, Pagination, Navigation]}
-      autoplay={{
-        delay: 3000,
-        disableOnInteraction: false,
-      }}
-      pagination={{
-        clickable: true,
-        dynamicBullets: true,
-      }}
-    >
-      <SwiperSlide>
-        <div className="w-full h-[210px] md:h-[350px] bg-gray-100 border-2 border-blue-700 overflow-hidden"></div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="w-full h-[210px] md:h-[350px] bg-gray-100 border-2 border-red-700 overflow-hidden"></div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="w-full h-[210px] md:h-[350px] bg-gray-100 border-2 border-green-700 overflow-hidden"></div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="w-full h-[210px] md:h-[350px] bg-gray-100 border-2 border-black overflow-hidden"></div>
-      </SwiperSlide>
-    </Swiper>
+    <div className="mt-20 flex flex-col gap-4 items-center justify-center">
+      <button
+        className="bg-blue-700 text-white text-3xl rounded-lg py-2 px-4"
+        onClick={() => setIsVisible(!isVisibile)}
+      >
+        Show / Hide
+      </button>
+      <AnimatePresence>
+        {isVisibile && (
+          <motion.div
+            initial={{ rotate: "0deg", scale: 0 }}
+            animate={{ rotate: "360deg", scale: 1 }}
+            transition={{ duration: 1, ease: "backInOut" }}
+            exit={{ rotate: "0deg", scale: 0 }}
+            className="w-[150px] h-[150px] bg-black flex items-center justify-center"
+          >
+            <p className="text-white font-bold">TEXT</p>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
   );
-}
+};
 
-export default SwiperJs;
+export default Swiper;
