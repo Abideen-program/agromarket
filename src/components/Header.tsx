@@ -85,6 +85,7 @@ const Header = () => {
                 className={`text-[#000000] flex-col leading-[24px] hover:text-[#006D33] ${
                   pathname === navLink.path ? "text-[#006D33]" : ""
                 }`}
+                onClick={() => setMenuOpen(false)}
               >
                 <Link href={navLink.path}>{navLink.title}</Link>
               </li>
