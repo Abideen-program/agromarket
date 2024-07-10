@@ -7,6 +7,7 @@ import Link from "next/link";
 import { DM_Sans } from "next/font/google";
 import { navLinks } from "@/utils/data";
 import { usePathname } from "next/navigation";
+import { motion } from "framer-motion";
 
 const sans = DM_Sans({ subsets: ["latin"] });
 
@@ -141,11 +142,16 @@ const Header = () => {
               ))}
             </ul>
           </div>
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-5 mr-2">
             <p className="text-[#000000] cursor-pointer">Login</p>
-            <button className="bg-[#006D33] rounded-lg w-[120px] h-[45px] text-[#FBFDFD] font-medium flex items-center justify-center">
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95, rotate: "2.5deg" }}
+              transition={{ duration: 0.2, ease: "easeInOut" }}
+              className="bg-[#006D33] rounded-lg w-[110px] h-[45px] text-[#FBFDFD] font-medium flex items-center justify-center"
+            >
               Get Started
-            </button>
+            </motion.button>
           </div>
         </div>
       </div>

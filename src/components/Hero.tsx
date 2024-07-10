@@ -41,17 +41,27 @@ const Hero = () => {
               transition={{ duration: 0.5 }}
               className="flex items-center sm:justify-start md:gap-8 sm:gap-5 gap-0 justify-between"
             >
-              <button className="bg-[#006D33] rounded-lg w-[100px] h-[40px] xs:w-[150px] xs:h-[45px] lg:w-[170px] lg:h-[55px] text-white font-semibold flex items-center justify-center text-[13px] lg:text-base sm:text-sm">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95, rotate: "2.5deg" }}
+                transition={{ duration: 0.2, ease: "easeInOut" }}
+                className="bg-[#006D33] rounded-lg w-[100px] h-[40px] xs:w-[150px] xs:h-[45px] lg:w-[170px] lg:h-[55px] text-white font-semibold flex items-center justify-center text-[13px] lg:text-base sm:text-sm"
+              >
                 Get Started
-              </button>
-              <div className="flex items-center justify-center gap-2 cursor-pointer">
+              </motion.button>
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95, rotate: "-2.5deg" }}
+                transition={{ duration: 0.2, ease: "easeInOut" }}
+                className="flex items-center justify-center gap-2 cursor-pointer"
+              >
                 <p
                   className={`font-semibold text-[13px] lg:text-base sm:text-sm ${inter.className}`}
                 >
                   Explore Products
                 </p>
                 <Image src={iconImages.ArrowRight} alt="arrow" />
-              </div>
+              </motion.div>
             </motion.div>
           </div>
 
