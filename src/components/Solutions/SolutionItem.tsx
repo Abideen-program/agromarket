@@ -1,12 +1,20 @@
+"use client";
+
 import Image from "next/image";
 import { Inter, DM_Sans } from "next/font/google";
+import { motion } from "framer-motion";
 
 const inter = Inter({ subsets: ["latin"] });
 const Sans = DM_Sans({ subsets: ["latin"] });
 
 const SolutionItem = ({ icon, title, description }: SolutionItems) => {
   return (
-    <div className="perspective-1200 overflow-hidden rounded-xl">
+    <motion.div
+      initial={{ opacity: 0, y: "100px" }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1, ease: "anticipate" }}
+      className="perspective-1200 overflow-hidden rounded-xl"
+    >
       <div className="border bg-white xs:h-[330px] py-5 xs:py-[50px] px-7 sm:px-[50px] rounded-xl flex flex-col items-center justify-center transition-all duration-300 ease-in gap-4 hover:transform hover:rotate-y-12 hover:shadow-md shadow-[0_50px_25px_-24px_rgb(0,0,0,0.3)]">
         <Image src={icon} alt="solution" />
 
@@ -24,7 +32,7 @@ const SolutionItem = ({ icon, title, description }: SolutionItems) => {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
